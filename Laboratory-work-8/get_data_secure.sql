@@ -1,6 +1,6 @@
 create or replace function get_data_secure(auto_name varchar)
 
-returns table(auto_id integer, name varchar, year varchar, access integer)
+returns table(auto_id integer, name varchar, year integer, access integer)
 
 as $$
 
