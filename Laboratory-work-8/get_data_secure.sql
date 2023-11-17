@@ -7,7 +7,7 @@ as $$
 declare
 	query1 varchar;
 begin
-	query1:= 'select * from hotel where name = $1';
+	query1:= 'select * from auto where name = $1';
 	raise notice 'Query = %', query1;
 	return query execute query1 using auto_name;
 end;
